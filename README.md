@@ -1,3 +1,3 @@
-# ENG6_KWLX_FinalProj
+# ENG6_KLWX_FinalProj
 
 dice game
