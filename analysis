@@ -1,0 +1,5 @@
+function[result] = analysis(array1,array2,x)
+    array = [array1,array2]
+    y = size(array(find(array == x)),2)
+    result = [x,y]
+end
