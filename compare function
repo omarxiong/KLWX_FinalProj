@@ -1,0 +1,8 @@
+function [result] = compare(true_result,suppose_result)
+    if true_result(1) >= suppose_result(1)
+        result = true
+    else
+        result = false
+    end
+end
+        
