@@ -1,4 +1,4 @@
-function[array1,array2] = merge(a,b,c,d,e,f,g,h,i,j)
-    array1 = [a,b,c,d,e]
-    array2 = [f,g,h,i,j]
+function merge(app)
+    array1 = [app.numP1D1,app.numP1D2,app.numP1D3,app.numP1D4,app.numP1D5]
+    array2 = [app.numP2D1,app.numP2D2,app.numP2D3,app.numP2D4,app.numP2D5]
 end
