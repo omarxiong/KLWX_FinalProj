@@ -1,14 +1,14 @@
 function P2RandInt1_6(app)
-    num1 = round((rand(1,1)*5))+1;
-    num2 = round((rand(1,1)*5))+1;
-    num3 = round((rand(1,1)*5))+1;
-    num4 = round((rand(1,1)*5))+1;
-    num5 = round((rand(1,1)*5))+1;
-    dice1Ima = num1+".jpg";
-    dice2Ima = num2+".jpg";
-    dice3Ima = num3+".jpg";
-    dice4Ima = num4+".jpg";
-    dice5Ima = num5+".jpg";
+    app.numP2D1 = round((rand(1,1)*5))+1;
+    app.numP2D2 = round((rand(1,1)*5))+1;
+    app.numP2D3 = round((rand(1,1)*5))+1;
+    app.numP2D4 = round((rand(1,1)*5))+1;
+    app.numP2D5 = round((rand(1,1)*5))+1;
+    dice1Ima = app.numP2D1+".jpg";
+    dice2Ima = app.numP2D2+".jpg";
+    dice3Ima = app.numP2D3+".jpg";
+    dice4Ima = app.numP2D4+".jpg";
+    dice5Ima = app.numP2D5+".jpg";
     app.P2Dice1.ImageSource= dice1Ima;
     app.P2Dice2.ImageSource= dice2Ima;
     app.P2Dice3.ImageSource= dice3Ima;
