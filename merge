@@ -1,0 +1,4 @@
+function[array1,array2] = merge(a,b,c,d,e,f,g,h,i,j)
+    array1 = [a,b,c,d,e]
+    array2 = [f,g,h,i,j]
+end
